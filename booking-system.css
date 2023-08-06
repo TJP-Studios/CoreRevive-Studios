@@ -3,25 +3,24 @@
   padding: 0;
   box-sizing: border-box;
 }
-.one{
+.one {
   background-image: url(images/woman\ cycling.jpg);
   background-repeat: no-repeat;
 }
-.one nav{
+.one nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 2%;
- 
 }
-.one nav .info{
+.one nav .info {
   display: flex;
   justify-content: space-between;
   width: 33.33%;
 }
-.info a{
+.info a {
   text-decoration: none;
-  color: #FFF;
+  color: #fff;
   font-family: Roboto;
   font-size: 25px;
   font-style: normal;
@@ -31,7 +30,7 @@
 .one p {
   padding-top: 10%;
   padding-bottom: 30%;
-  color: #FFF;
+  color: #fff;
   font-family: Roboto;
   font-size: 48px;
   font-style: normal;
@@ -39,32 +38,64 @@
   line-height: normal;
   text-align: center;
 }
-.button1{
+.button1 {
   background-color: #212738;
   border: #212738;
   border-radius: 12px;
   padding: 14px 22px;
-  color: #FFF;
+  color: #fff;
   font-family: Roboto;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
 }
-.button2{
+.button2 {
   padding: 14px 22px;
   border-radius: 12px;
   justify-content: center;
   align-items: center;
-  background-color:#8EA604;
-  border: #8EA604;
-  color: #FFF;
-font-family: Roboto;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
+  background-color: #8ea604;
+  border: #8ea604;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
 }
-.work1{
+.loading {
+  display: flex;
+  flex-direction: row;
+}
+.work1,
+.work2 {
   display: flex;
   align-items: center;
+  margin: 2% 3%;
+  gap: 64px;
 }
-.work1
+
+.work1 section,
+.work2 section {
+  display: flex;
+  flex-direction: row;
+  width: 45%;
+}
+.work1 section .text,
+.work2 section .text {
+  background-color: #212738;
+  padding: 5%;
+  border-radius: 0px 12px 12px 0px;
+  box-shadow: 0px 4px 8px 0px rgba(153, 156, 163, 0.25);
+}
+.text h1 {
+  color: #8ea604;
+  font-family: Roboto;
+  font-size: 31px;
+  font-weight: 700;
+}
+.text p {
+  color: #e9e9eb;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+}
