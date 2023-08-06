@@ -1,23 +1,70 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.flex-child  {
-    display: flex;
-    align-items: center;
-    padding: 1%;
-    border: 2px solid;
-    border-color: #155eef;
-    border-radius: 8px;
-  }
-  .one{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.one{
+  background-image: url(images/woman\ cycling.jpg);
+  background-repeat: no-repeat;
 }
-.info{
-    display: flex;
-    align-items: center;
+.one nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 2%;
+ 
 }
+.one nav .info{
+  display: flex;
+  justify-content: space-between;
+  width: 33.33%;
+}
+.info a{
+  text-decoration: none;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.one p {
+  padding-top: 10%;
+  padding-bottom: 30%;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+.button1{
+  background-color: #212738;
+  border: #212738;
+  border-radius: 12px;
+  padding: 14px 22px;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+.button2{
+  padding: 14px 22px;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+  background-color:#8EA604;
+  border: #8EA604;
+  color: #FFF;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+}
+.work1{
+  display: flex;
+  align-items: center;
+}
+.work1
