@@ -28,8 +28,7 @@
   line-height: normal;
 }
 
-.info a:nth-child(3),
-.{
+.info a:nth-child(3){
   color: #8ea604;
 }
 .one p {
