@@ -98,7 +98,12 @@ margin-bottom: 4%;
   height: 2px;
   background-color: #E9E9EB;
 }
-
+.circle-1{
+  background-color: #8ea604;
+}
+article{
+  padding: 8%;
+}
 .work1,
 .work2 {
   display: flex;
@@ -221,6 +226,9 @@ hr{
   color: #fff;
   width: 95%;
   margin: 0 auto;
+}
+.information1{
+  padding: 3%;
 }
 .information1 h2{
   color: #FFF;
