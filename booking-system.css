@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.one {
+  background-image: url(images/woman\ cycling.jpg);
+  background-repeat: no-repeat;
+}
+.one nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 2%;
+}
+.one nav .info {
+  display: flex;
+  justify-content: space-between;
+  width: 33.33%;
+}
+.info a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.info a:nth-child(3){
+  color: #8ea604;
+}
+.one p {
+  padding-top: 10%;
+  padding-bottom: 20%;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+}
+.button1 {
+  background-color: #212738;
+  border: #212738;
+  border-radius: 12px;
+  padding: 14px 22px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+.button2 {
+  padding: 14px 22px;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+  background-color: #8ea604;
+  border: #8ea604;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+/*flex child two*/
+.loadingtext{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+font-family: Roboto;
+font-size: 31px;
+font-weight: 700;
+margin-bottom: 4%;
+}
+.loading {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  margin: 0;
+
+}
+.circle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: #E9E9EB;
+}
+.line{
+  width: 50px;
+  height: 2px;
+  background-color: #E9E9EB;
+}
+.circle-1{
+  background-color: #8ea604;
+}
+article{
+  padding: 8%;
+}
+.work1,
+.work2 {
+  display: flex;
+  align-items: center;
+  margin: 2% 3%;
+  gap: 64px;
+}
+
+.work1 section,
+.work2 section {
+  display: flex;
+  flex-direction: row;
+  width: 45%;
+}
+.work1 section .text,
+.work2 section .text {
+  background-color: #212738;
+  padding: 5%;
+  border-radius: 0px 12px 12px 0px;
+  box-shadow: 0px 4px 8px 0px rgba(153, 156, 163, 0.25);
+}
+.text h1 {
+  color: #8ea604;
+  font-family: Roboto;
+  font-size: 31px;
+  font-weight: 700;
+}
+.text p {
+  color: #e9e9eb;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+}
+article section button {
+  background-color: #8ea604;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 400;
+  border: none;
+  border-radius: 12px;
+  padding: 14px 22px;
+  margin-top: 6%;
+}
+footer {
+  background-color: #212738;
+}
+.three {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+ 
+  padding: 5% 2%;
+}
+.add {
+  background-color: #8ea604;
+  padding-top: 1%;
+}
+
+.information p {
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 8% 0;
+}
+
+.form p {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 8%;
+}
+
+.three section {
+  width: 20%;
+}
+
+.explore,
+.form {
+  margin-bottom: 6%;
+}
+
+.explore a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+}
+.explore li {
+  list-style: none;
+  margin-top: 8%;
+}
+.three .information {
+  width: 30%;
+}
+.form p {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 400;
+}
+.form input {
+  padding: 3% 24%;
+}
+.form button {
+  background-color: #8ea604;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 400;
+  border: none;
+  border-radius: 12px;
+  padding: 3% 35.5%;
+  margin-top: 6%;
+}
+hr{
+  color: #fff;
+  width: 95%;
+  margin: 0 auto;
+}
+.information1{
+  padding: 3%;
+}
+.information1 h2{
+  color: #FFF;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
