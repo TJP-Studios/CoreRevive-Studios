@@ -1,0 +1,933 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+
+
+
+main .obj-header {
+      text-align: center;
+      color: #819704;
+      font-size: 35px;
+      font-family: Roboto;
+      font-weight: 700;
+      word-wrap: break-word;
+      margin-top: 1.1%;
+}
+
+main .objective {
+      display: flex;
+      flex-direction: column;
+}
+
+main .objective .class-section1 {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 2%;
+
+
+}
+
+main .objective .class-section2 {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 2%;
+      margin-bottom: 2%;
+}
+
+main .objective .real .class-section1 .obj-list {
+      padding: 1% 0;
+      width: 25%;
+      background-color: #212738;
+      color: #8EA604;
+      font-size: 18px;
+      font-family: Roboto;
+      border-radius: 8px;
+      border: 1px solid #212738;
+
+}
+
+main .objective .class-section2 .obj-list {
+      padding: 1% 2%;
+      width: 25%;
+      background-color: #212738;
+      color: #8EA604;
+      font-size: 18px;
+      font-family: Roboto;
+      border-radius: 8px;
+      border: 1px solid #212738;
+
+}
+
+main .objective .why-button {
+      display: flex;
+      justify-content: center;
+      margin: 0.5% 0 2.8% 0;
+
+}
+
+main .objective .classes-button {
+      padding: 0.8% 1.8%;
+      background-color: #8EA604;
+      color: #FFFFFF;
+      border: 1px solid #8EA604;
+      border-radius: 8px;
+
+}
+
+main .upcoming-class {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+}
+
+main .upcoming-class caption {
+      color: #819704;
+      font-size: 35px;
+      font-family: Roboto;
+      font-weight: 700;
+      margin: 0 0 2% 0;
+}
+
+main .upcoming-class table {
+      width: 95%;
+      border: 2px solid red;
+}
+
+main .upcoming-class table thead {
+      background-color: black;
+      color: #ffffff;
+      padding: 2% 0;
+      font-size: 24px;
+      font-family: Roboto;
+      font-weight: 700;
+      word-wrap: break-word
+}
+
+main .upcoming-class table thead tr th {
+      padding: 1.4% 0;
+}
+
+main .upcoming-class table tr td {
+      text-align: center;
+
+}
+
+main .upcoming-class table tr td p {
+      background-color: #8EA604;
+      margin: 10% 4%;
+      padding: 15% 10%;
+      font-family: 'Roboto Slab', serif;
+      font-size: 24px;
+
+
+
+
+}
+
+main .upcoming-class table tr td p span {
+      color: #FFFFFF;
+      font-size: 20px;
+
+}
+
+main .upcoming-class table,
+tr,
+td {
+      border: 1px solid black;
+      border-collapse: collapse;
+}
+
+main .inst-profile{
+      display: flex;
+      flex-direction: column;
+}
+
+main .inst-profile h2{
+      margin-top: 2%;
+}
+
+main .inst-profile .prof{
+      display: flex;
+      position: relative;
+      justify-content: space-evenly;
+}
+
+
+
+
+main .inst-profile .black-male img {
+      width: 100%;
+      border: 1px solid sienna;
+}
+
+main .inst-profile .black-male p {
+      z-index: 2;
+      position: relative;
+      top: 85%;
+      text-align: center;
+
+}
+
+
+
+main .inst-profile .black-female p {
+      z-index: 2;
+      position: relative;
+      top: 85%;
+      text-align: center;
+
+}
+
+main .inst-profile .b-builder p {
+      z-index: 2;
+      position: relative;
+      top: 85%;
+      text-align: center;
+
+}
+
+main .inst-profile .b-builder .track {
+      color: #ffffff;
+      font-size: 22px;
+      font-family: Roboto;
+}
+
+main .inst-profile .black-male .track {
+      color: #ffffff;
+      font-size: 22px;
+      font-family: Roboto;
+}
+
+main .inst-profile .black-female .track {
+      color: #ffffff;
+      font-size: 22px;
+      font-family: Roboto;
+}
+
+main .inst-profile .b-builder .name {
+      color: #8EA604;
+      font-size: 20px;
+      font-family: Open Sans;
+      font-weight: 400;
+}
+
+main .inst-profile .black-male .name {
+      color: #8EA604;
+      font-size: 20px;
+      font-family: Open Sans;
+      font-weight: 400;
+}
+
+main .inst-profile .black-female .name {
+      color: #8EA604;
+      font-size: 20px;
+      font-family: Open Sans;
+      font-weight: 400;
+}
+
+
+main .inst-profile .black-female img {
+      width: 100%;
+}
+
+main .inst-profile .b-builder img {
+      width: 100%;
+}
+
+main .inst-profile h2 {
+      text-align: center;
+      padding: 0.2% 0;
+      /* margin: 0.9% 0; */
+      color: #1E2333;
+      font-size: 35px;
+      font-family: Roboto;
+}
+
+main .more-inst{
+     text-align: center;
+}
+
+main .more-inst .more-inst1{
+      padding: 0.8% 4%;
+      background-color: #819704;
+      border-radius: 12px;
+      color: #FFFFFF;
+     border:1px solid #819704;
+     font-family: roboto;
+     font-size: 21px;
+}
+
+main .review{
+      text-align: center;
+      font-family: roboto;
+      color: #1E2333;
+      font-size: 26px;
+      margin: 3% 0;
+}
+
+main .instructors {
+      display: flex;
+      width: 100%;
+      justify-content: space-evenly;
+     
+    
+}
+
+main .instructors .ims-1 {
+      width: 33%;
+      position: relative;
+      
+}
+
+main .instructors .ims-2{
+      width: 33%;
+}
+
+main .instructors .ims-1 .instructor1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 2;
+      position: relative;
+      top: 10%;
+}
+
+main .instructors .ims-1 .instructor1 img {
+      width: 30%;
+      border-radius: 70%;
+      
+}
+
+
+
+main .instructors .ims-2 .instructor2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 2;
+      position: relative;
+      top: 10%;
+}
+
+main .instructors .ims-2 .instructor2 img {
+      width: 30%;
+      border-radius: 70%;
+}
+
+main .instructors .ims-1 .inst-1{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+      align-items: center;
+      background-color: #8EA604;
+
+}
+
+main .instructors .ims-1 .inst-1 .stars{
+      margin-bottom: 5%;
+}
+
+main .instructors .ims-2 .inst-2 .stars{
+      margin-bottom: 5%;
+}
+main .instructors .ims-2 .inst-2{
+      display: flex;
+      justify-content: center;
+      
+ }
+
+main .instructors .ims-1 .inst-1 p {
+      
+      width: 70%;
+      color: #1E2333;
+      font-size: 28px;
+      font-family: Open Sans;
+      font-weight: 600;
+      word-wrap: break-word;
+      align-items: center;
+      padding: 9% 5%;
+      text-align: center;
+}
+
+main .instructors .ims-2 .inst-2{
+      display: flex;
+      justify-content: center;
+      background-color: #8EA604;
+      flex-direction: column;
+      
+ }
+
+ main .instructors .ims-2 .inst-2 p {
+      background-color: #8EA604;
+      width: 70%;
+      color: #1E2333;
+      font-size: 28px;
+      font-family: Open Sans;
+      font-weight: 600;
+      word-wrap: break-word;
+      align-items: center;
+      padding: 9% 5%;
+      text-align: center;
+}
+
+main .instructors .ims-2 .inst-2{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+main .instructors .ims-3 {
+      width: 33%;
+      position: relative;
+     
+      
+}
+
+
+main .instructors .ims-3 .instructor3 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 2;
+      position: relative;
+      top: 10%;
+}
+
+main .instructors .ims-3 .instructor3 img {
+      width: 30%;
+      border-radius: 70%;
+      
+}
+
+main .instructors .ims-3 .inst-3{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+       align-items: center;
+       background-color: #8EA604;
+ 
+ }
+
+ main .instructors .ims-3 .inst-3 .stars{
+      margin-bottom: 5%;
+}
+
+main .instructors .ims-3 .inst-3 p {
+      
+      width: 70%;
+      color: #1E2333;
+      font-size: 28px;
+      font-family: Open Sans;
+      font-weight: 600;
+      word-wrap: break-word;
+      align-items: center;
+      padding: 9% 5%;
+      text-align: center;
+}
+
+
+
+
+
+@media screen and (max-width: 1093px) {
+      header .auth{
+            display: flex;
+            width: 40%;
+      }
+
+      header .logo-nav{
+            margin-left: 2%;
+      }
+
+      header .header-text {
+            width: 80%;
+        }
+
+      header .header-text .head-text{
+            font-size: 20px;
+            width: 50%;
+            line-height: 30px;
+      }
+
+      main .objective .class-section1 .obj-list{
+            width: 25%;
+            font-size: 16px;
+      }
+
+      main .objective .class-section2 .obj-list {
+            width: 25%;
+            font-size: 16px;
+      }
+
+      main .upcoming-class caption {
+            font-size: 30px;
+      }
+
+      main .upcoming-class table tr td p {
+            background-color: #8EA604;
+            margin: 7% 4%;
+            padding: 10% 10%;
+            font-family: 'Roboto Slab', serif;
+            font-size: 20px;
+        }
+
+        main .upcoming-class table tr td p span {
+            color: #FFFFFF;
+            font-size: 15px;
+        }
+
+        main .inst-profile .prof .black-male, .black-female, .b-builder {
+            width: 30.33%;
+        }
+
+        main .instructors .ims-1{
+            justify-content: space-evenly;
+        }
+
+        main .instructors .ims-1 .inst-1 p {
+            
+            background-color: #8EA604;
+            width: 94%;
+            color: #1E2333;
+            font-size: 24px;
+            font-weight: 450;
+            text-align: center;
+            margin-top: 5%;
+        }
+
+        main .instructors .ims-2 .inst-2 p {
+            
+            background-color: #8EA604;
+            width: 94%;
+            color: #1E2333;
+            font-size: 24px;
+            font-weight: 450;
+            text-align: center;
+            margin-top: 5%;
+        }
+
+        main .instructors .ims-3 .inst-3 p{
+            background-color: #8EA604;
+            width: 94%;
+            color: #1E2333;
+            font-size: 24px;
+            font-weight: 450;
+            text-align: center;
+            margin-top: 5%;
+        }
+
+        main .review {
+            font-size: 23px;
+        }
+
+       
+
+}
+
+@media screen and (max-width: 1024px) {
+
+main .instructors .ims-2 .inst-2 .stars {
+      margin-bottom: 4.9%;
+  }
+
+  main .more-inst {
+      text-align: center;
+      margin-top: 2%;
+  }
+
+}
+
+@media screen and (max-width: 897px) {
+
+      header .logo-nav{
+            display: flex;
+            justify-content: space-evenly;
+            width: 100%;
+      }
+
+header .logo-nav .nav{
+      display: flex;
+      justify-content: space-evenly;
+      width: 30%;
+}
+
+header .logo-nav .nav a {
+      font-size: 20px;
+}
+
+header .auth .sign-in{
+      padding: 2% 18%;
+      font-size: 12px;
+      width: 30%;
+}
+
+header h2{
+      font-size: 25px;
+}
+
+main .upcoming-class table tr td p span{
+      font-size: 13.5px;
+}
+
+main .inst-profile h2{
+      margin-top: 2%;
+      font-size: 32px;
+}
+
+main .more-inst {
+      text-align: center;
+      margin-top: 3%;
+  }
+
+  main .instructors .ims-2 .inst-2 .stars {
+      margin-bottom: 14%;
+      
+  }
+
+  main .instructors .ims-1 .inst-1 p {
+      background-color: #8EA604;
+      width: 100%;
+      color: #1E2333;
+      font-size: 22px;
+      font-weight: 450;
+      text-align: center;
+      margin-top: 14%;
+  }
+
+  main .instructors .ims-2 .inst-2 p {
+      background-color: #8EA604;
+      width: 100%;
+      color: #1E2333;
+      font-size: 22px;
+      font-weight: 450;
+      text-align: center;
+      margin-top: 5%;
+  }
+
+  main .instructors .ims-3 .inst-3 p {
+      background-color: #8EA604;
+      width: 100%;
+      color: #1E2333;
+      font-size: 22px;
+      font-weight: 450;
+      text-align: center;
+      margin-top: 5%;
+      margin-top: 14%;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+      header .header-text .header-button {
+            margin-bottom: 3%;
+      }
+
+      main .upcoming-class table tr td p {
+            font-size: 15px;
+
+      }
+
+      
+
+      main .upcoming-class table tr td p span {
+            font-size: 11px;
+
+      }
+
+      main .upcoming-class table thead tr th {
+            font-size: 15px;
+      }
+
+      main .inst-profile h2 {
+            font-size: 30px;
+      }
+
+      main .instructors .ims-2 .inst-2 p {
+            background-color: #8EA604;
+            width: 100%;
+            color: #1E2333;
+            font-size: 22px;
+            font-weight: 450;
+            text-align: center;
+            margin-top: 26%;
+        }
+
+        main .instructors .ims-1 .inst-1 p {
+            background-color: #8EA604;
+            width: 100%;
+            color: #1E2333;
+            font-size: 18px;
+            font-weight: 450;
+            text-align: center;
+            margin-top: 14%;
+        }
+
+        main .instructors .ims-3 .inst-3 p {
+            background-color: #8EA604;
+            width: 100%;
+            color: #1E2333;
+            font-size: 18px;
+            font-weight: 450;
+            text-align: center;
+            margin-top: 5%;
+            margin-top: 14%;
+        }
+
+        main .instructors .ims-2 .inst-2 p {
+            background-color: #8EA604;
+            width: 100%;
+            color: #1E2333;
+            font-size: 18px;
+            font-weight: 450;
+            text-align: center;
+            margin-top: 13%;
+        }
+
+        main .instructors .ims-1 .inst-1 .stars {
+            margin-bottom: 26%;
+        }
+        
+        main .instructors .ims-2 .inst-2 .stars {
+            margin-bottom: 27%;
+        }
+
+        main .instructors .ims-3 .inst-3 .stars {
+            margin-bottom: 26%;
+        }
+            
+
+
+
+}
+
+@media screen and (max-width: 425px) {
+
+header .header-text .header-button {
+      align-items: center;
+}
+
+main .objective .real{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+}
+
+main .objective .real .class-section1, .class-section2{
+      display: flex;
+      flex-direction: column;
+}
+
+main .objective .real {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+  }
+
+  main .objective .real .class-section1, .class-section2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 50%;
+      align-items: center;
+  }
+
+  main .objective .real .class-section1 .obj-list {
+      padding: 5% 0;
+      width: 69%;
+      background-color: #212738;
+      color: #8EA604;
+      font-size: 14px;
+      font-family: Roboto;
+      border-radius: 8px;
+      border: 1px solid #212738;
+  }
+
+  main .objective .class-section1 .obj-list {
+      width: 70%;
+      font-size: 14px;
+      padding: 5% 0;
+      margin: 4% 0;
+  }
+
+  main .objective .class-section2 .obj-list {
+      width: 70%;
+      font-size: 14px;
+      padding: 5% 0;
+      margin: 4% 0;
+  }
+
+  main .obj-header {
+      text-align: center;
+      color: #819704;
+      font-size: 20px;
+      font-family: Roboto;
+      font-weight: 700;
+      word-wrap: break-word;
+      margin-top: 4.5%;
+  }
+
+  main .upcoming-class caption {
+      font-size: 20px;
+      font-family: roboto;
+      background-color: #E9E9EB;
+  }
+
+  main .upcoming-class table tr td p {
+      font-size: 13px;
+  }
+
+  main .upcoming-class table tr td p {
+      background-color: #8EA604;
+      margin: 7% 4%;
+      padding: 10% 2%;
+      font-family: 'Roboto Slab', serif;
+      font-size: 20px;
+  }
+
+  main .upcoming-class table thead tr th {
+      font-size: 10px;
+  }
+
+  main .upcoming-class table tr td p {
+      background-color: #8EA604;
+      margin: 7% 4%;
+      padding: 10% 2%;
+      font-family: 'Roboto Slab', serif;
+      font-size: 10px;
+  }
+
+  main .upcoming-class table tr td p span {
+      font-size: 8px;
+  }
+
+  main .inst-profile h2 {
+      font-size: 20px;
+  }
+  
+
+  main .inst-profile .prof .black-female {
+      display: none;
+
+  }
+
+  main .inst-profile .black-male .track {
+      color: #ffffff;
+      font-size: 15px;
+      font-family: Roboto;
+  }
+
+  main .inst-profile .b-builder .track {
+      color: #ffffff;
+      font-size: 15px;
+      font-family: Roboto;
+  }
+
+  main .inst-profile .black-male .name {
+      color: #8EA604;
+      font-size: 15px;
+      font-family: Open Sans;
+      font-weight: 400;
+  }
+
+  main .inst-profile .b-builder .name {
+      color: #8EA604;
+      font-size: 15px;
+      font-family: Open Sans;
+      font-weight: 400;
+  }
+
+  main .inst-profile .black-male p {
+      z-index: 2;
+      position: relative;
+      top: 70%;
+      text-align: center;
+  }
+
+  main .inst-profile .b-builder p {
+      z-index: 2;
+      position: relative;
+      top: 70%;
+      text-align: center;
+  }
+
+  main .more-inst .more-inst1 {
+      padding: 0.7% 2.3%;
+      background-color: #819704;
+      border-radius: 12px;
+      color: #FFFFFF;
+      border: 1px solid #819704;
+      font-family: roboto;
+      font-size: 16px;
+  }
+
+  main .review {
+      font-size: 18px;
+      margin: 2% 3%;
+  }
+
+  main .instructors .ims-1{
+      width: 95%;
+  }
+
+  main .instructors .ims-2{
+      display: none;
+  }
+
+  main .instructors .ims-3{
+      display: none;
+  }
+
+  main .instructors .ims-1 .inst-1 .stars img{
+      width: 15%;
+  }
+
+  main .instructors .ims-1 .inst-1 .stars {
+      margin-bottom: 5%;
+      width: 80%;
+      display: flex;
+      justify-content: center;
+  }
+
+}
+
+main .objective .class-section1 .obj-list {
+      width: 83%;
+      font-size: 14px;
+      padding: 5% 0;
+      margin: 4% 0;
+  }
+
+  @media screen and (max-width: 320px){
+  
+
+  main .objective .class-section2 .obj-list {
+      width: 83%;
+      font-size: 12px;
+      padding: 6% 0;
+      margin: 4% 0;
+  }
+
+  main .objective .real .class-section1 .obj-list {
+      padding: 6% 0;
+      width: 80%;
+      background-color: #212738;
+      color: #8EA604;
+      font-size: 11px;
+      font-family: Roboto;
+      border-radius: 8px;
+      border: 1px solid #212738;
+  }
+
+  main .upcoming-class{
+      justify-content: unset;
+      width: 5%;
+  }
+
+}
