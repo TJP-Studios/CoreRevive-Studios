@@ -4,6 +4,130 @@
   padding: 0;
 }
 
+button{
+  cursor: pointer;
+}
+.core-header-flex-child-one {
+  background-image: url(images/Hero\ Booking\ Section\(3\).png);
+  background-repeat: no-repeat;
+}
+.core-header-flex-child-one nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin: 0 2%;
+}
+.core-header-flex-child-one nav .info {
+  display: flex;
+  justify-content: space-between;
+  width: 33.33%;
+}
+.core-header-flex-child-one .success {
+  padding-top: 10%;
+  padding-bottom: 20%;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+}
+nav .info a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+nav .info a:nth-child(3) {
+  color: #8ea604;
+}
+.hamburger{
+  display: none;
+}
+nav .button1 {
+  background-color: #212738;
+  border: #212738;
+  border-radius: 12px;
+  padding: 14px 22px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+nav .button2 {
+  padding: 14px 22px;
+  border-radius: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #8ea604;
+  border: #8ea604;
+  color: #fff;
+}
+
+.action {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 5px;
+}
+
+nav .button2 p {
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+
+/*flex child two*/
+.loadingtext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-family: Roboto;
+  font-size: 31px;
+  font-weight: 700;
+  margin-bottom: 4%;
+}
+.loading {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  margin: 0;
+}
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: #e9e9eb;
+}
+.line {
+  width: 50px;
+  height: 2px;
+  background-color: #e9e9eb;
+}
+.circle-1 , 
+.circle-2{
+  background-color: #8ea604;
+}
+.circle-0{
+border: 1px solid #8ea604;
+}
+
+
+
 :root {
   --apple: #8ea604;
   --offwhite: #cbd68c;
@@ -106,6 +230,7 @@ body {
   font-size: 21px;
   font-weight: 700;
   text-align: center;
+  margin: 2% auto;
 }
 /*aside styling in column*/
 article {
@@ -115,6 +240,23 @@ article {
   align-items: center;
   justify-content: center;
 }
+
+article {
+  padding: 8%;
+}
+
+article section button {
+  background-color: #8ea604;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 400;
+  border: none;
+  border-radius: 12px;
+  padding: 14px 22px;
+  margin-top: 6%;
+}
+
 article section {
   width: 100%;
   border-radius: 12px;
@@ -164,47 +306,161 @@ font-size: 20px;
 font-weight: 400;
 }
 
+footer {
+  background-color: #212738;
+}
+footer .three {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  padding: 5% 2%;
+}
+
+footer .add {
+  background-color: #8ea604;
+  padding-top: 1%;
+}
+
+footer .information p {
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 8% 0;
+}
+
+footer.form p {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 8%;
+}
+
+footer .three section {
+  width: 20%;
+}
+
+footer .explore,
+.form {
+  margin-bottom: 6%;
+}
+
+footer .explore a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+}
+footer .explore li {
+  list-style: none;
+  margin-top: 8%;
+}
+footer .headli a {
+  color: var(--foundation-apple-green-apple-green-500, #8ea604);
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+}
+footer .three .information {
+  width: 30%;
+}
+footer .form p {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 400;
+}
+footer .form input {
+  padding: 3% 24%;
+}
+footer .form button {
+  background-color: #8ea604;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 400;
+  border: none;
+  border-radius: 12px;
+  padding: 3% 35.5%;
+  margin-top: 6%;
+}
+footer hr {
+  color: #fff;
+  width: 95%;
+  margin: 0 auto;
+}
+footer .information1 {
+  padding: 3%;
+}
+footer .information1 h2 {
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
 /* Add media queries for smaller screens */
-@media screen and (max-width: 784px) {
-  .hamburger {
+
+@media screen and (max-width:900px) {
+  .hamburger{
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
-  .one nav {
+  .core-header-flex-child-one nav{
     display: none;
   }
-  .loadhead {
-    margin: 40%;
+
+  .core-header-flex-child-one{
+    margin-bottom: 20%;
   }
-  article {
+
+  .loadhead {
+    margin-top: 50%;
+  }
+  
+  article{
     display: flex;
     flex-direction: column-reverse;
   }
-
-  .three {
+  footer .three{
     display: flex;
     flex-direction: column;
   }
-  .three .information {
+  footer .three .information{
     width: 100%;
   }
-  .three section {
+  footer .three section {
     width: 80%;
   }
-  .form p {
+  .form p{
     width: 70%;
   }
-}
-@media screen and (max-width: 1270px) {
-  .loadhead {
-    margin: 20%;
+  
   }
+@media screen and (max-width: 634px) {
+  .loadhead {
+    margin-top: 40%;
+  }
+  .core-header-flex-child-one{
+    margin-bottom: 20%;
+  }
+}
+
+.core-header-flex-child-one{
+  margin-bottom: 20%;
 }
 @media screen and (max-width: 720px) {
   .weekdays li,
   .days li {
     width: 13.1%;
+  }
+  .core-header-flex-child-one{
+    margin-bottom: 40%;
   }
 }
 
@@ -213,6 +469,18 @@ font-weight: 400;
   .days li {
     width: 12.5%;
   }
+  .loadhead {
+    margin-top: 60%;
+  }
+
+  .core-header-flex-child-one{
+    margin-bottom: 20%;
+  }
+
+  .core-header-flex-child-one{
+    margin-bottom: 20%;
+  }
+
   .days li .active {
     padding: 2px;
   }
@@ -222,5 +490,9 @@ font-weight: 400;
   .weekdays li,
   .days li {
     width: 12.2%;
+  }
+
+  .core-header-flex-child-one{
+    margin-bottom: 20%;
   }
 }

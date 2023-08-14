@@ -4,6 +4,10 @@
       box-sizing: border-box;
 }
 
+button {
+      cursor: pointer;
+}
+
 
 header {
       background-image: url(./Images/lady-lifting_dumbells.jpg);
@@ -110,6 +114,85 @@ header .header-text .header-button {
       margin-bottom: 15%;
       margin-top: 1%;
 }
+
+/*navsection*/
+
+.core-header-flex-child-one {
+      background-image: url(Images/lady-lifting_dumbells.jpg);
+      background-repeat: no-repeat;
+    }
+    .core-header-flex-child-one nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      align-content: center;
+      margin: 0 2%;
+    }
+    .core-header-flex-child-one nav .info {
+      display: flex;
+      justify-content: space-between;
+      width: 33.33%;
+    }
+    .core-header-flex-child-one .success {
+      padding-top: 10%;
+      padding-bottom: 20%;
+      color: #fff;
+      font-family: Roboto;
+      font-size: 48px;
+      font-weight: 700;
+      text-align: center;
+    }
+    nav .info a {
+      text-decoration: none;
+      color: #fff;
+      font-family: Roboto;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    
+    .hamburger,
+    .nav2{
+      display: none;
+    }
+    nav .button1 {
+      background-color: #212738;
+      border: #212738;
+      border-radius: 12px;
+      padding: 14px 22px;
+      color: #fff;
+      font-family: Roboto;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+    }
+    nav .button2 {
+      padding: 14px 22px;
+      border-radius: 12px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #8ea604;
+      border: #8ea604;
+      color: #fff;
+    }
+    
+    .action {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      gap: 5px;
+    }
+    
+    nav .button2 p {
+      font-family: Roboto;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+    }
+
+
 
 main .obj-header {
       text-align: center;
@@ -531,6 +614,103 @@ main .instructors .ims-3 .inst-3 p {
       text-align: center;
 }
 
+
+footer {
+      background-color: #212738;
+    }
+    footer .three {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    
+      padding: 5% 2%;
+    }
+    
+    footer .add {
+      background-color: #8ea604;
+      padding-top: 1%;
+    }
+    
+    footer .information p {
+      color: #fff;
+      font-family: Open Sans;
+      font-size: 16px;
+      font-weight: 400;
+      margin: 8% 0;
+    }
+    
+    footer.form p {
+      color: #fff;
+      font-family: Roboto;
+      font-size: 25px;
+      font-weight: 400;
+      margin-bottom: 8%;
+    }
+    
+    footer .three section {
+      width: 20%;
+    }
+    
+    footer .explore,
+    .form {
+      margin-bottom: 6%;
+    }
+    
+    footer .explore a {
+      text-decoration: none;
+      color: #fff;
+      font-family: Roboto;
+      font-size: 20px;
+      font-weight: 700;
+    }
+    footer .explore li {
+      list-style: none;
+      margin-top: 8%;
+    }
+    footer .headli a {
+      color: var(--foundation-apple-green-apple-green-500, #8ea604);
+      font-family: Roboto;
+      font-size: 20px;
+      font-weight: 700;
+    }
+    footer .three .information {
+      width: 30%;
+    }
+    footer .form p {
+      color: #fff;
+      font-family: Roboto;
+      font-size: 25px;
+      font-weight: 400;
+    }
+    footer .form input {
+      padding: 3% 24%;
+    }
+    footer .form button {
+      background-color: #8ea604;
+      color: #fff;
+      font-family: Roboto;
+      font-size: 25px;
+      font-weight: 400;
+      border: none;
+      border-radius: 12px;
+      padding: 3% 35.5%;
+      margin-top: 6%;
+    }
+    footer hr {
+      color: #fff;
+      width: 95%;
+      margin: 0 auto;
+    }
+    footer .information1 {
+      padding: 3%;
+    }
+    footer .information1 h2 {
+      color: #fff;
+      font-family: Open Sans;
+      font-size: 16px;
+      font-weight: 400;
+      text-align: center;
+    }
 
 
 
@@ -991,3 +1171,28 @@ main .objective .real {
   }
 
 }
+@media screen and (max-width:800px) {
+      .hamburger{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .core-header-flex-child-one nav{
+        display: none;
+      }
+      
+      footer .three{
+        display: flex;
+        flex-direction: column;
+      }
+      footer .three .information{
+        width: 100%;
+      }
+      footer .three section {
+        width: 80%;
+      }
+      .form p{
+        width: 70%;
+      }
+      
+      }
