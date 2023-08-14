@@ -10,10 +10,10 @@
   --appleblue: #212738;
   --white: #ffffff;
 }
-.calender{
+.calender {
   height: 550px;
 }
-.calenderheader{
+.calenderheader {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -23,11 +23,11 @@
   border: 2px solid var(--appleblue);
   background-color: var(--appleblue);
 }
-.calenderheader h1{
-  color: var(--foundation-apple-green-apple-green-500, #8EA604);
-font-family: Roboto;
-font-size: 21px;
-font-weight: 700;
+.calenderheader h1 {
+  color: var(--foundation-apple-green-apple-green-500, #8ea604);
+  font-family: Roboto;
+  font-size: 21px;
+  font-weight: 700;
 }
 ul {
   list-style-type: none;
@@ -100,12 +100,12 @@ body {
   background: #cbd68c;
   color: white !important;
 }
-.loadhead{
+.loadhead {
   color: #000;
-font-family: Roboto;
-font-size: 21px;
-font-weight: 700;
-text-align: center;
+  font-family: Roboto;
+  font-size: 21px;
+  font-weight: 700;
+  text-align: center;
 }
 /*aside styling in column*/
 article {
@@ -114,9 +114,6 @@ article {
   gap: 16px;
   align-items: center;
   justify-content: center;
-  
-
-  
 }
 article section {
   width: 100%;
@@ -149,44 +146,58 @@ aside section {
   border: 2px solid var(--foundation-raisin-black-raisin-black-200, #999ca3);
   background: #fff;
   padding: 2% 8%;
+}
+.btn {
+  padding: 2% 8%;
+  width: 100%;
 
+}
+.btn button {
+  border-radius: 12px;
+  height: 50px;
+  padding: 14px 12px;
+  color: var(--white);
+  background-color: var(--apple);
+  border-color: var(--apple);
+font-family: Roboto;
+font-size: 20px;
+font-weight: 400;
 }
 
 /* Add media queries for smaller screens */
 @media screen and (max-width: 784px) {
-  .hamburger{
+  .hamburger {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
-  .one nav{
+  .one nav {
     display: none;
   }
-  .loadhead{
+  .loadhead {
     margin: 40%;
   }
-  article{
+  article {
     display: flex;
     flex-direction: column-reverse;
   }
-  
-  .three{
+
+  .three {
     display: flex;
     flex-direction: column;
   }
-  .three .information{
+  .three .information {
     width: 100%;
   }
   .three section {
     width: 80%;
   }
-  .form p{
+  .form p {
     width: 70%;
   }
-  
 }
-@media screen and (max-width:1270px) {
-  .loadhead{
+@media screen and (max-width: 1270px) {
+  .loadhead {
     margin: 20%;
   }
 }
