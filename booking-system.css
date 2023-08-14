@@ -11,6 +11,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  align-content: center;
   margin: 0 2%;
 }
 .one nav .info {
@@ -18,7 +19,7 @@
   justify-content: space-between;
   width: 33.33%;
 }
-.one p {
+.success {
   padding-top: 10%;
   padding-bottom: 20%;
   color: #fff;
@@ -57,16 +58,29 @@
 .button2 {
   padding: 14px 22px;
   border-radius: 12px;
-  justify-content: center;
+  display: inline-flex;
   align-items: center;
+  justify-content: center;
   background-color: #8ea604;
   border: #8ea604;
   color: #fff;
+}
+
+.action {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 5px;
+}
+
+.button2 p {
   font-family: Roboto;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
 }
+
+
 /*flex child two*/
 .loadingtext {
   display: flex;
