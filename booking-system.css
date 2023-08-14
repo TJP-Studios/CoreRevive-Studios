@@ -18,6 +18,15 @@
   justify-content: space-between;
   width: 33.33%;
 }
+.one p {
+  padding-top: 10%;
+  padding-bottom: 20%;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+}
 .info a {
   text-decoration: none;
   color: #fff;
@@ -28,17 +37,11 @@
   line-height: normal;
 }
 
-.info a:nth-child(3){
+.info a:nth-child(3) {
   color: #8ea604;
 }
-.one p {
-  padding-top: 10%;
-  padding-bottom: 20%;
-  color: #fff;
-  font-family: Roboto;
-  font-size: 48px;
-  font-weight: 700;
-  text-align: center;
+.hamburger{
+  display: none;
 }
 .button1 {
   background-color: #212738;
@@ -65,15 +68,15 @@
   font-weight: 400;
 }
 /*flex child two*/
-.loadingtext{
+.loadingtext {
   display: flex;
   justify-content: center;
   align-items: center;
   color: #000;
-font-family: Roboto;
-font-size: 31px;
-font-weight: 700;
-margin-bottom: 4%;
+  font-family: Roboto;
+  font-size: 31px;
+  font-weight: 700;
+  margin-bottom: 4%;
 }
 .loading {
   display: flex;
@@ -82,26 +85,30 @@ margin-bottom: 4%;
   align-items: center;
   height: 20vh;
   margin: 0;
-
 }
-.circle{
+.circle {
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
   width: 100px;
   height: 100px;
-  background-color: #E9E9EB;
+  background-color: #e9e9eb;
 }
-.line{
+.line {
   width: 50px;
   height: 2px;
-  background-color: #E9E9EB;
+  background-color: #e9e9eb;
 }
-.circle-1{
+.circle-1 , 
+.circle-2{
   background-color: #8ea604;
 }
-article{
+.circle-0{
+border: 1px solid #8ea604;
+}
+
+article {
   padding: 8%;
 }
 .work1,
@@ -155,7 +162,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
- 
+
   padding: 5% 2%;
 }
 .add {
@@ -199,6 +206,12 @@ footer {
   list-style: none;
   margin-top: 8%;
 }
+.headli a {
+  color: var(--foundation-apple-green-apple-green-500, #8ea604);
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+}
 .three .information {
   width: 30%;
 }
@@ -222,18 +235,58 @@ footer {
   padding: 3% 35.5%;
   margin-top: 6%;
 }
-hr{
+hr {
   color: #fff;
   width: 95%;
   margin: 0 auto;
 }
-.information1{
+.information1 {
   padding: 3%;
 }
-.information1 h2{
-  color: #FFF;
+.information1 h2 {
+  color: #fff;
   font-family: Open Sans;
   font-size: 16px;
   font-weight: 400;
   text-align: center;
+}
+/*media queries*/
+@media screen and (max-width:800px) {
+.hamburger{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.one nav{
+  display: none;
+}
+.work1,
+.work2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2% 3%;
+  gap: 64px;
+}
+
+.work1 section,
+.work2 section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.three{
+  display: flex;
+  flex-direction: column;
+}
+.three .information{
+  width: 100%;
+}
+.three section {
+  width: 80%;
+}
+.form p{
+  width: 70%;
+}
+
 }

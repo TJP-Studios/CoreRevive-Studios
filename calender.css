@@ -3,13 +3,32 @@
   margin: 0;
   padding: 0;
 }
-:root{
-    --apple: #8EA604;
-    --offwhite: #CBD68C;
-    --appleblue: #212738;
-    --white: #FFFFFF;
-}
 
+:root {
+  --apple: #8ea604;
+  --offwhite: #cbd68c;
+  --appleblue: #212738;
+  --white: #ffffff;
+}
+.calender{
+  height: 550px;
+}
+.calenderheader{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2%;
+  padding: 5%;
+  border-radius: 12px;
+  border: 2px solid var(--appleblue);
+  background-color: var(--appleblue);
+}
+.calenderheader h1{
+  color: var(--foundation-apple-green-apple-green-500, #8EA604);
+font-family: Roboto;
+font-size: 21px;
+font-weight: 700;
+}
 ul {
   list-style-type: none;
 }
@@ -20,7 +39,7 @@ body {
 .month {
   padding: 70px 25px;
   width: 100%;
-  background: var(--apple);
+  background: var(--white);
   text-align: center;
 }
 
@@ -30,14 +49,14 @@ body {
 }
 
 .month ul li {
-  color: var(--white);
+  color: var(--appleblue);
   font-size: 20px;
   text-transform: uppercase;
   letter-spacing: 3px;
 }
 
 .month .prev {
-  float: left;
+  float: right;
   padding-top: 10px;
 }
 
@@ -61,7 +80,7 @@ body {
 
 .days {
   padding: 10px 0;
-  background: #FFFFFF;
+  background: #ffffff;
   margin: 0;
 }
 
@@ -78,41 +97,99 @@ body {
 .days li .active {
   padding: 5px;
   border-radius: 50%;
-  background: #CBD68C;
+  background: #cbd68c;
   color: white !important;
 }
-/*aside styling in column*/
-article{
-    display: flex;
-    flex-direction: row;
-}
-article section{
-    width: 45%;
-}
-aside{
-    display: flex;
-    flex-direction: column;
-    width: 45%;
-}
-.button{
-    display: flex;
-    flex-direction: column;
-}
-.button button{
-    background-color: var(--appleblue);
-    border-radius: 8px;
-    border-color: var(--appleblue);
-    
+.loadhead{
+  color: #000;
 font-family: Roboto;
-font-size: 20px;
+font-size: 21px;
 font-weight: 700;
-    color: var(--apple);
+text-align: center;
+}
+/*aside styling in column*/
+article {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  
 
+  
+}
+article section {
+  width: 100%;
+  border-radius: 12px;
+  border: 2px solid var(--foundation-raisin-black-raisin-black-200, #999ca3);
+  background: #fff;
+}
+aside {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  gap: 16px;
+}
+.button {
+  display: flex;
+  flex-direction: column;
+}
+.button button {
+  background-color: var(--appleblue);
+  border-radius: 8px;
+  border-color: var(--appleblue);
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--apple);
+}
 
+aside section {
+  border-radius: 12px;
+  border: 2px solid var(--foundation-raisin-black-raisin-black-200, #999ca3);
+  background: #fff;
+  padding: 2% 8%;
 
 }
 
 /* Add media queries for smaller screens */
+@media screen and (max-width: 784px) {
+  .hamburger{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .one nav{
+    display: none;
+  }
+  .loadhead{
+    margin: 40%;
+  }
+  article{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  .three{
+    display: flex;
+    flex-direction: column;
+  }
+  .three .information{
+    width: 100%;
+  }
+  .three section {
+    width: 80%;
+  }
+  .form p{
+    width: 70%;
+  }
+  
+}
+@media screen and (max-width:1270px) {
+  .loadhead{
+    margin: 20%;
+  }
+}
 @media screen and (max-width: 720px) {
   .weekdays li,
   .days li {
